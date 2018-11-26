@@ -1,0 +1,11 @@
+CREATE DATABASES api_movies;
+
+USE api_movies;
+
+CREATE TABLE movies (id int(11) NOT NULL auto_increment, title varchar(100) NOT NULL, year varchar(10) NOT NULL, PRIMARY KEY (id));
+ 
+ INSERT INTO movies (title, year) VALUES  ('Vingadores',  '2018');
+ INSERT INTO movies (title, year) VALUES  ('Thor',  '2016');
+ INSERT INTO movies (title, year) VALUES  ('Star Wars',  '1990');
+ INSERT INTO movies (title, year) VALUES  ('Titanic',  '2000');
+ INSERT INTO movies (title, year) VALUES  ('Transformes', '2012');
